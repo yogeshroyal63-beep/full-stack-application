@@ -246,7 +246,9 @@ function Register() {
           Already have an account?{' '}
           <Link to="/login" style={{ color: '#2980b9' }}>Login</Link>
         </p>
+        
       </div>
+
     </div>
   )
 }
