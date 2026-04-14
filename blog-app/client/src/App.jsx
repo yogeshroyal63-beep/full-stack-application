@@ -16,8 +16,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          
           <Route path="/dashboard" element={<Dashboard />} />
+
           <Route path="*" element={<NotFound />} />
+
         </Routes>
       </main>
       <Footer />
